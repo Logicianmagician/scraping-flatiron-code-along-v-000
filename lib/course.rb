@@ -5,6 +5,6 @@ class Course
   @@all = []
 
   def all
-    @@all
+    self.all.collect {|i| puts i}
   end
 end
