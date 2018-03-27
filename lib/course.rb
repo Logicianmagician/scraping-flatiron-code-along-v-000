@@ -4,7 +4,8 @@ class Course
 
   @@all = []
 
-  def all
-    self.all.collect {|i| puts i}
+  def self.all
+    @@all
+    
   end
 end
